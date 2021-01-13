@@ -23,7 +23,23 @@ M = V_0/V_som;
 % Re = 3e6;
 % M=0.0;
 alfa = 0;
-NumNos = 50;
+NumNos = 50; %serão os genes
 
 %% Inicializacao da populacao
+vetorPopulacaoInicial =[
+    '0012'
+    '2212'
+    '1415'
+    '0008'
+    '2214'
+    '2415'
+    '1518'
+    '2314'
+    '2541'
+    '1212'
+    ];
+VetAirfoil = CriaPopulacao(vetorPopulacaoInicial, NumNos);
+
+
+%% Le os .dat e cria matrizes para os elementos 
 
